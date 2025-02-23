@@ -6,7 +6,9 @@
 
 @font-face {
     font-family: 'Eldoriano';
-    src:url(/fonte/Eldoriano-Regular.ttf);
+    src:url('fonte/Eldoriano-Regular.ttf') format('truetype'),
+    url('fonte/Eldoriano-Regular.woff') format('woff'),
+    url('fonte/Eldoriano-Regular.otf') format('opentype');
 }
 
 .eldoriano{
