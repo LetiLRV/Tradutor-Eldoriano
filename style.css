@@ -13,6 +13,12 @@
     font-family: 'Eldoriano',sans-serif;
 }
 
+.lingua{
+    font-family: 'Minecraftia';
+    font-size: 15px;
+}
+
+
 body{
     display: flex;
     justify-content: center;
@@ -33,11 +39,6 @@ body{
     font-size: 22px;
 }
 
-.output{
-    font-size: 25px;
-    color: #363535;
-}
-
 .lingua, .eldoriano{
     background-color: blueviolet;
     word-wrap: break-word;
@@ -47,10 +48,18 @@ body{
 
 }
 
+.outputEl{
+    font-size: 25px;
+}
+
 p, h2{
     font-family: 'Minecraftia';
     font-weight: normal;
     font-style: normal;
+}
+
+h2{
+    margin: 0px 0px 15px 0px;
 }
 
 .teclado{
