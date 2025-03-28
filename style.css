@@ -22,14 +22,14 @@
 
 
 body{
-    background-image:url('fundo.jpeg');
+    background-image:url('fundo.jpeg'); 
     background-repeat: no-repeat ;
-    background-size:cover;
     background-position:center ;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: rgba(179, 10, 10, 0.356);
 }
 
 .main{
@@ -102,4 +102,9 @@ h2{
 
 footer{
     font-family: 'Minecraftia';
+}
+
+.planoDeFundo{
+    z-index: -1;
+    object-fit: cover;
 }
